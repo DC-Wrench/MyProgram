@@ -1,0 +1,21 @@
+[1]sudo cp /etc/apache2/sites-available/000-defaul.conf /.../[New].conf
+[2]sudo vim [New].conf
+[3]
+	<VirtualHost *:80>
+		ServerAdmin admin@example.com
+		ServerName example.com
+		ServerAlias www.example.com
+		DocumentRoot /var/www/html/example.com
+	
+
+	ErrorLog......
+	CustomLog......
+	
+	</VirtualHost>
+
+[4]sudo a2ensite [New].conf
+[5]sudo vim /etc/hosts
+[6]
+	add "127.0.0.1 example.com"
+
+[7]curl http://example.html

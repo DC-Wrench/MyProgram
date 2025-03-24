@@ -1,0 +1,11 @@
+#Get ssh keys
+ssh-keygen -t rsa -C "gitemail"
+
+#Link status
+ssh -T git@github.com
+
+#Setting user and email
+git config --global user.name "gitname"
+git config --global user.email "gitemail"
+git config --list
+

@@ -1,0 +1,3 @@
+sudo apt install fcitx5 fcitx5-pinyin
+or 
+sudo apt install fcitx fcitx-googlepinyin

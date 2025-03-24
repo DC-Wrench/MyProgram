@@ -1,0 +1,4 @@
+Run command "sudo dpkg-reconfigure locales",
+the space is selected,
+select "zh_CN.UTF-8 UTF-8",
+then reboot.

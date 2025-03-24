@@ -1,0 +1,10 @@
+Linux
+Javascript
+Html
+Css
+Vue
+Node.js
+Php
+Mysql
+Network
+
