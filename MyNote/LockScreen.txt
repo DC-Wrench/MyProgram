@@ -1,0 +1,12 @@
+检查DPMS(显示电源管理)
+xset s off	关闭屏幕保护
+xset -dpms	禁用DPMS
+xset s noblank	阻止屏幕变黑
+将配置写入~/.xintrc永久生效
+
+检查X Secreen Saver设置
+xset q | grep "timeout"	查看屏保时间
+xset s 0 设置屏保时间超时为0
+
+
+
