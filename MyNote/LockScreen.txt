@@ -1,4 +1,5 @@
 检查DPMS(显示电源管理)
+xset -q 	查看屏幕当前设置
 xset s off	关闭屏幕保护
 xset -dpms	禁用DPMS
 xset s noblank	阻止屏幕变黑
