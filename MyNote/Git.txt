@@ -1,3 +1,9 @@
+#nslookup
+nslookup github.com
+nslookup github.global.ssl.fastly.net
+sudo /etc/hosts
+add Address
+
 #Get ssh keys
 ssh-keygen -t rsa -C "gitemail"
 
