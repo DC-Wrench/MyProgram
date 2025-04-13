@@ -1,0 +1,4 @@
+13April
+using npm init -y created file package.json
+
+using npm install express download node_nodules
