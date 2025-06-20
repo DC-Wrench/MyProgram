@@ -1,2 +1,0 @@
-http://www.myframe.test
-http://www.myframe.test/admin/index/index
